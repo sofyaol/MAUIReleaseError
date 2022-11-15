@@ -1,0 +1,306 @@
+.subsections_via_symbols
+.text
+	.align 3
+jit_code_start:
+_mono_aot_System_Net_ServicePointjit_code_start:
+	.globl _mono_aot_System_Net_ServicePointjit_code_start
+
+	.byte 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+.text
+ut_3:
+add x0, x0, 16
+b _System_Net_ServicePoint_System_Nullable_1_int_Box_System_Nullable_1_int
+ut_end:
+.section __TEXT, __const
+_unbox_trampoline_p:
+
+	.long 0
+LDIFF_SYM0=ut_end - ut_3
+	.long LDIFF_SYM0
+.text
+ut_4:
+add x0, x0, 16
+b _System_Net_ServicePoint_System_Nullable_1_int_Unbox_object
+.text
+ut_5:
+add x0, x0, 16
+b _System_Net_ServicePoint_System_Nullable_1_int_UnboxExact_object
+.text
+ut_6:
+add x0, x0, 16
+b _System_Net_ServicePoint_System_Nullable_1_int__ctor_int
+.text
+ut_7:
+add x0, x0, 16
+b _System_Net_ServicePoint_System_Nullable_1_int_get_HasValue
+.text
+ut_8:
+add x0, x0, 16
+b _System_Net_ServicePoint_System_Nullable_1_int_get_Value
+.text
+ut_9:
+add x0, x0, 16
+b _System_Net_ServicePoint_System_Nullable_1_int_GetValueOrDefault
+.text
+ut_10:
+add x0, x0, 16
+b _System_Net_ServicePoint_System_Nullable_1_int_GetValueOrDefault_int
+.text
+ut_11:
+add x0, x0, 16
+b _System_Net_ServicePoint_System_Nullable_1_int_Equals_object
+.text
+ut_12:
+add x0, x0, 16
+b _System_Net_ServicePoint_System_Nullable_1_int_GetHashCode
+.text
+ut_13:
+add x0, x0, 16
+b _System_Net_ServicePoint_System_Nullable_1_int_ToString
+.text
+	.align 3
+jit_code_end:
+_mono_aot_System_Net_ServicePointjit_code_end:
+	.globl _mono_aot_System_Net_ServicePointjit_code_end
+
+	.byte 0,0,0,0
+.no_dead_strip _System_Net_ServicePoint_System_Net_ServicePointManager_get_SecurityProtocol
+.no_dead_strip _System_Net_ServicePoint_System_Net_ServicePointManager__cctor
+.no_dead_strip _System_Net_ServicePoint_System_Nullable_1_int_Box_System_Nullable_1_int
+.no_dead_strip _System_Net_ServicePoint_System_Nullable_1_int_Unbox_object
+.no_dead_strip _System_Net_ServicePoint_System_Nullable_1_int_UnboxExact_object
+.no_dead_strip _System_Net_ServicePoint_System_Nullable_1_int__ctor_int
+.no_dead_strip _System_Net_ServicePoint_System_Nullable_1_int_get_HasValue
+.no_dead_strip _System_Net_ServicePoint_System_Nullable_1_int_get_Value
+.no_dead_strip _System_Net_ServicePoint_System_Nullable_1_int_GetValueOrDefault
+.no_dead_strip _System_Net_ServicePoint_System_Nullable_1_int_GetValueOrDefault_int
+.no_dead_strip _System_Net_ServicePoint_System_Nullable_1_int_Equals_object
+.no_dead_strip _System_Net_ServicePoint_System_Nullable_1_int_GetHashCode
+.no_dead_strip _System_Net_ServicePoint_System_Nullable_1_int_ToString
+.no_dead_strip _System_Net_ServicePoint_wrapper_delegate_invoke_System_Func_2_string_System_WeakReference_1_System_Net_ServicePoint_invoke_TResult_T_string
+.no_dead_strip _mono_aot_System_Net_ServicePoint_init_method
+.no_dead_strip _mono_aot_System_Net_ServicePoint_init_method_gshared_mrgctx
+.no_dead_strip _mono_aot_System_Net_ServicePoint_init_method_gshared_this
+.no_dead_strip _mono_aot_System_Net_ServicePoint_init_method_gshared_vtable
+.no_dead_strip _mono_aot_System_Net_ServicePoint_icall_cold_wrapper_261
+
+.text
+	.align 3
+method_addresses:
+_mono_aot_System_Net_ServicePointmethod_addresses:
+	.globl _mono_aot_System_Net_ServicePointmethod_addresses
+	.no_dead_strip method_addresses
+bl _System_Net_ServicePoint_System_Net_ServicePointManager_get_SecurityProtocol
+bl _System_Net_ServicePoint_System_Net_ServicePointManager__cctor
+bl method_addresses
+bl _System_Net_ServicePoint_System_Nullable_1_int_Box_System_Nullable_1_int
+bl _System_Net_ServicePoint_System_Nullable_1_int_Unbox_object
+bl _System_Net_ServicePoint_System_Nullable_1_int_UnboxExact_object
+bl _System_Net_ServicePoint_System_Nullable_1_int__ctor_int
+bl _System_Net_ServicePoint_System_Nullable_1_int_get_HasValue
+bl _System_Net_ServicePoint_System_Nullable_1_int_get_Value
+bl _System_Net_ServicePoint_System_Nullable_1_int_GetValueOrDefault
+bl _System_Net_ServicePoint_System_Nullable_1_int_GetValueOrDefault_int
+bl _System_Net_ServicePoint_System_Nullable_1_int_Equals_object
+bl _System_Net_ServicePoint_System_Nullable_1_int_GetHashCode
+bl _System_Net_ServicePoint_System_Nullable_1_int_ToString
+bl _System_Net_ServicePoint_wrapper_delegate_invoke_System_Func_2_string_System_WeakReference_1_System_Net_ServicePoint_invoke_TResult_T_string
+bl _mono_aot_System_Net_ServicePoint_init_method
+bl _mono_aot_System_Net_ServicePoint_init_method_gshared_mrgctx
+bl _mono_aot_System_Net_ServicePoint_init_method_gshared_this
+bl _mono_aot_System_Net_ServicePoint_init_method_gshared_vtable
+bl _mono_aot_System_Net_ServicePoint_icall_cold_wrapper_261
+method_addresses_end:
+
+.section __TEXT, __const
+	.align 3
+unbox_trampolines:
+_mono_aot_System_Net_ServicePointunbox_trampolines:
+	.globl _mono_aot_System_Net_ServicePointunbox_trampolines
+
+	.long 3,4,5,6,7,8,9,10
+	.long 11,12,13
+unbox_trampolines_end:
+_mono_aot_System_Net_ServicePointunbox_trampolines_end:
+	.globl _mono_aot_System_Net_ServicePointunbox_trampolines_end
+
+	.long 0
+.text
+	.align 3
+unbox_trampoline_addresses:
+_mono_aot_System_Net_ServicePointunbox_trampoline_addresses:
+	.globl _mono_aot_System_Net_ServicePointunbox_trampoline_addresses
+bl ut_3
+bl ut_4
+bl ut_5
+bl ut_6
+bl ut_7
+bl ut_8
+bl ut_9
+bl ut_10
+bl ut_11
+bl ut_12
+bl ut_13
+
+	.long 0
+.section __TEXT, __const
+	.align 3
+unwind_info:
+_mono_aot_System_Net_ServicePointunwind_info:
+	.globl _mono_aot_System_Net_ServicePointunwind_info
+
+	.byte 0
+
+.text
+	.align 4
+plt:
+_mono_aot_System_Net_ServicePointplt:
+	.globl _mono_aot_System_Net_ServicePointplt
+mono_aot_System_Net_ServicePoint_plt:
+_p_1_plt_System_Net_ServicePoint_wrapper_alloc_object_AllocSmall_intptr_intptr_llvm:
+	.globl _p_1_plt_System_Net_ServicePoint_wrapper_alloc_object_AllocSmall_intptr_intptr_llvm
+.private_extern _p_1_plt_System_Net_ServicePoint_wrapper_alloc_object_AllocSmall_intptr_intptr_llvm
+	.no_dead_strip plt_System_Net_ServicePoint_wrapper_alloc_object_AllocSmall_intptr_intptr
+plt_System_Net_ServicePoint_wrapper_alloc_object_AllocSmall_intptr_intptr:
+_p_1:
+adrp x16, mono_aot_System_Net_ServicePoint_got@PAGE+0
+add x16, x16, mono_aot_System_Net_ServicePoint_got@PAGEOFF
+ldr x16, [x16, #184]
+br x16
+.word 259
+_p_2_plt_System_Net_ServicePoint_System_Collections_Concurrent_ConcurrentDictionary_2_string_System_WeakReference_1_System_Net_ServicePoint__ctor_llvm:
+	.globl _p_2_plt_System_Net_ServicePoint_System_Collections_Concurrent_ConcurrentDictionary_2_string_System_WeakReference_1_System_Net_ServicePoint__ctor_llvm
+.private_extern _p_2_plt_System_Net_ServicePoint_System_Collections_Concurrent_ConcurrentDictionary_2_string_System_WeakReference_1_System_Net_ServicePoint__ctor_llvm
+	.no_dead_strip plt_System_Net_ServicePoint_System_Collections_Concurrent_ConcurrentDictionary_2_string_System_WeakReference_1_System_Net_ServicePoint__ctor
+plt_System_Net_ServicePoint_System_Collections_Concurrent_ConcurrentDictionary_2_string_System_WeakReference_1_System_Net_ServicePoint__ctor:
+_p_2:
+adrp x16, mono_aot_System_Net_ServicePoint_got@PAGE+0
+add x16, x16, mono_aot_System_Net_ServicePoint_got@PAGEOFF
+ldr x16, [x16, #192]
+br x16
+.word 267
+_p_3_plt_System_Net_ServicePoint__jit_icall_llvm_throw_corlib_exception_abs_trampoline_llvm:
+	.globl _p_3_plt_System_Net_ServicePoint__jit_icall_llvm_throw_corlib_exception_abs_trampoline_llvm
+.private_extern _p_3_plt_System_Net_ServicePoint__jit_icall_llvm_throw_corlib_exception_abs_trampoline_llvm
+	.no_dead_strip plt_System_Net_ServicePoint__jit_icall_llvm_throw_corlib_exception_abs_trampoline
+plt_System_Net_ServicePoint__jit_icall_llvm_throw_corlib_exception_abs_trampoline:
+_p_3:
+adrp x16, mono_aot_System_Net_ServicePoint_got@PAGE+0
+add x16, x16, mono_aot_System_Net_ServicePoint_got@PAGEOFF
+ldr x16, [x16, #200]
+br x16
+.word 278
+_p_4_plt_System_Net_ServicePoint_System_Nullable_1_int__ctor_int_llvm:
+	.globl _p_4_plt_System_Net_ServicePoint_System_Nullable_1_int__ctor_int_llvm
+.private_extern _p_4_plt_System_Net_ServicePoint_System_Nullable_1_int__ctor_int_llvm
+	.no_dead_strip plt_System_Net_ServicePoint_System_Nullable_1_int__ctor_int
+plt_System_Net_ServicePoint_System_Nullable_1_int__ctor_int:
+_p_4:
+adrp x16, mono_aot_System_Net_ServicePoint_got@PAGE+0
+add x16, x16, mono_aot_System_Net_ServicePoint_got@PAGEOFF
+ldr x16, [x16, #208]
+br x16
+.word 281
+_p_5_plt_System_Net_ServicePoint__jit_icall_mono_create_corlib_exception_0_llvm:
+	.globl _p_5_plt_System_Net_ServicePoint__jit_icall_mono_create_corlib_exception_0_llvm
+.private_extern _p_5_plt_System_Net_ServicePoint__jit_icall_mono_create_corlib_exception_0_llvm
+	.no_dead_strip plt_System_Net_ServicePoint__jit_icall_mono_create_corlib_exception_0
+plt_System_Net_ServicePoint__jit_icall_mono_create_corlib_exception_0:
+_p_5:
+adrp x16, mono_aot_System_Net_ServicePoint_got@PAGE+0
+add x16, x16, mono_aot_System_Net_ServicePoint_got@PAGEOFF
+ldr x16, [x16, #216]
+br x16
+.word 294
+_p_6_plt_System_Net_ServicePoint__jit_icall_mono_arch_throw_exception_llvm:
+	.globl _p_6_plt_System_Net_ServicePoint__jit_icall_mono_arch_throw_exception_llvm
+.private_extern _p_6_plt_System_Net_ServicePoint__jit_icall_mono_arch_throw_exception_llvm
+	.no_dead_strip plt_System_Net_ServicePoint__jit_icall_mono_arch_throw_exception
+plt_System_Net_ServicePoint__jit_icall_mono_arch_throw_exception:
+_p_6:
+adrp x16, mono_aot_System_Net_ServicePoint_got@PAGE+0
+add x16, x16, mono_aot_System_Net_ServicePoint_got@PAGEOFF
+ldr x16, [x16, #224]
+br x16
+.word 297
+_p_7_plt_System_Net_ServicePoint_System_ThrowHelper_ThrowInvalidOperationException_InvalidOperation_NoValue_llvm:
+	.globl _p_7_plt_System_Net_ServicePoint_System_ThrowHelper_ThrowInvalidOperationException_InvalidOperation_NoValue_llvm
+.private_extern _p_7_plt_System_Net_ServicePoint_System_ThrowHelper_ThrowInvalidOperationException_InvalidOperation_NoValue_llvm
+	.no_dead_strip plt_System_Net_ServicePoint_System_ThrowHelper_ThrowInvalidOperationException_InvalidOperation_NoValue
+plt_System_Net_ServicePoint_System_ThrowHelper_ThrowInvalidOperationException_InvalidOperation_NoValue:
+_p_7:
+adrp x16, mono_aot_System_Net_ServicePoint_got@PAGE+0
+add x16, x16, mono_aot_System_Net_ServicePoint_got@PAGEOFF
+ldr x16, [x16, #232]
+br x16
+.word 299
+_p_8_plt_System_Net_ServicePoint_int_ToString_llvm:
+	.globl _p_8_plt_System_Net_ServicePoint_int_ToString_llvm
+.private_extern _p_8_plt_System_Net_ServicePoint_int_ToString_llvm
+	.no_dead_strip plt_System_Net_ServicePoint_int_ToString
+plt_System_Net_ServicePoint_int_ToString:
+_p_8:
+adrp x16, mono_aot_System_Net_ServicePoint_got@PAGE+0
+add x16, x16, mono_aot_System_Net_ServicePoint_got@PAGEOFF
+ldr x16, [x16, #240]
+br x16
+.word 304
+_p_9_plt_System_Net_ServicePoint__jit_icall_mono_thread_interruption_checkpoint_llvm:
+	.globl _p_9_plt_System_Net_ServicePoint__jit_icall_mono_thread_interruption_checkpoint_llvm
+.private_extern _p_9_plt_System_Net_ServicePoint__jit_icall_mono_thread_interruption_checkpoint_llvm
+	.no_dead_strip plt_System_Net_ServicePoint__jit_icall_mono_thread_interruption_checkpoint
+plt_System_Net_ServicePoint__jit_icall_mono_thread_interruption_checkpoint:
+_p_9:
+adrp x16, mono_aot_System_Net_ServicePoint_got@PAGE+0
+add x16, x16, mono_aot_System_Net_ServicePoint_got@PAGEOFF
+ldr x16, [x16, #248]
+br x16
+.word 309
+_p_10_plt_System_Net_ServicePoint__jit_icall_mono_arch_rethrow_exception_llvm:
+	.globl _p_10_plt_System_Net_ServicePoint__jit_icall_mono_arch_rethrow_exception_llvm
+.private_extern _p_10_plt_System_Net_ServicePoint__jit_icall_mono_arch_rethrow_exception_llvm
+	.no_dead_strip plt_System_Net_ServicePoint__jit_icall_mono_arch_rethrow_exception
+plt_System_Net_ServicePoint__jit_icall_mono_arch_rethrow_exception:
+_p_10:
+adrp x16, mono_aot_System_Net_ServicePoint_got@PAGE+0
+add x16, x16, mono_aot_System_Net_ServicePoint_got@PAGEOFF
+ldr x16, [x16, #256]
+br x16
+.word 312
+plt_end:
+_mono_aot_System_Net_ServicePointplt_end:
+	.globl _mono_aot_System_Net_ServicePointplt_end
+.section __DATA, __bss
+	.align 3
+jit_got:
+_mono_aot_System_Net_ServicePointjit_got:
+	.globl _mono_aot_System_Net_ServicePointjit_got
+.lcomm mono_aot_System_Net_ServicePoint_got, 264
+got_end:
+.section __TEXT, __const
+	.align 3
+Lglobals_hash:
+
+	.short 11, 0, 0, 0, 0, 0, 0, 0
+	.short 0, 0, 0, 0, 0, 1, 0, 0
+	.short 0, 0, 0, 0, 0, 0, 0
+.section __TEXT, __const
+	.align 2
+name_0:
+	.asciz "_unbox_trampoline_p"
+.data
+	.align 3
+globals:
+_mono_aot_System_Net_ServicePointglobals:
+	.globl _mono_aot_System_Net_ServicePointglobals
+	.align 3
+	.quad Lglobals_hash
+	.align 3
+	.quad name_0
+	.align 3
+	.quad _unbox_trampoline_p
+
+	.long 0,0
+.text
+	.align 3
+mem_end:

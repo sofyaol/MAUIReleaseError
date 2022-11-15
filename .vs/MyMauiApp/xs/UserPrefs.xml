@@ -1,0 +1,31 @@
+﻿<Properties StartupConfiguration="{A2C94451-6370-4AD9-A87E-D93894A9D1E4}|Default">
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.249815F2-BA68-42E2-BA3B-06B1A13A420F" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="lalala.xaml.cs">
+    <Files>
+      <File FileName="MainPage.xaml" Line="14" Column="23" />
+      <File FileName="lalala.xaml" />
+      <File FileName="lalala.xaml.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="MyMauiApp" expanded="True">
+            <Node name="MyMauiApp" expanded="True">
+              <Node name="Platforms" expanded="True">
+                <Node name="iOS" expanded="True" />
+              </Node>
+              <Node name="lalala.xaml" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.MyMauiApp PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.249815F2-BA68-42E2-BA3B-06B1A13A420F" />
+</Properties>
